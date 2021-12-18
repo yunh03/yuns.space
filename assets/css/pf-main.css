@@ -1,0 +1,108 @@
+body {
+    padding: 0;
+    margin: 0 auto;
+    background-color: #000000;
+    color: #ffffff;
+    max-width: 600px;
+    font-family: proxima-nova, sans-serif;
+}
+
+@media ( max-width: 768px ) {
+    body { 
+        max-width: 300px;
+    }
+}
+
+.pf-main {
+    padding-top: 40px;
+}
+
+.pf-main h1 {
+    font-size: 30px;
+    font-weight: 900;
+    font-style: italic;
+    color: #c9e258;
+}
+
+.pf-main p {
+    font-size: 15px;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.pf-project {
+    padding-top: 20px;
+}
+
+.pf-project h1 {
+    font-size: 30px;
+    font-weight: 900;
+    font-style: italic;
+    color: #c9e258;
+}
+
+.pf-p-box {
+    word-break: break-all;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.pf-p-box h2 {
+    font-size: 25px;
+    font-style: italic;
+}
+
+.pf-p-box h3 {
+    font-size: 15px;
+    opacity: 0.6;
+    font-weight: 300;
+}
+
+.pf-p-box p {
+    font-size: 12px;
+    opacity: 0.6;
+}
+
+.pf-p-box a {
+    color: #65a3cc;
+    text-decoration: none;
+}
+
+.pf-p-box a:hover {
+    text-decoration: underline;
+}
+
+.pf-p-box i {
+    padding-left: 10px;
+}
+
+.pf-contact {
+    padding-top: 10px;
+}
+
+.pf-contact h1 {
+    font-size: 30px;
+    font-weight: 900;
+    font-style: italic;
+    color: #c9e258;
+}
+
+.pf-contact li {
+    font-size: 15px;
+    font-weight: 100;
+    line-height: 2;
+    font-style: italic;
+}
+
+.pf-contact li a {
+    margin-left: 10px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.pf-contact li a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
