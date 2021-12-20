@@ -54,6 +54,10 @@ body {
     font-style: italic;
 }
 
+.pf-p-box .fa-github {
+    padding-left: 10px;
+}
+
 .pf-p-box h3 {
     font-size: 15px;
     opacity: 0.6;
@@ -74,8 +78,12 @@ body {
     text-decoration: underline;
 }
 
-.pf-p-box i {
+.pf-p-box .fa-external-link-alt {
     padding-left: 10px;
+}
+
+.pf-p-box .fa-exclamation-triangle {
+    padding-right: 10px;
 }
 
 .pf-contact {
